@@ -1,0 +1,173 @@
+@import "utilities.css";
+
+:root {
+    --primary : #61E697;
+    --pure : #FFFFFF;
+    --dark : #232326;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+html, body {
+    overflow-x: hidden;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    /* background-image: url('../background1.jpg'); */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+    margin: 20px;
+}
+
+.RegisterForm{
+    text-align: center;
+    width: 500px;
+    margin: auto;
+}
+
+.photo1 {
+    height: 20px;
+    margin: 5px;
+    border-radius: 100%;
+}
+
+.photo2 {
+    height: 200px;
+    margin: 5px;
+}
+
+.hero h1 {
+    font-family:'Pacifico', cursive;
+}
+
+.box1 {
+    padding: 50px;
+    height: 40vh;
+    width:100%;
+    background-image: linear-gradient(#FF06B7, #15133C);
+    background-size: cover;
+    background-position: center;
+    display: table;
+    background-attachment: fixed;
+}
+
+.box1 h1 {
+    margin-top: 20px;
+    padding: 50px;
+    font-family: sans-serif;
+    font-size: 48px;
+    color: #fff;
+    margin: 0px;
+    text-align: center;
+    /* display: table-cell; */
+    /* vertical-align: middle; */
+}
+
+.box1 p {
+    margin: auto;
+    font-family:'Recursive', sans-serif;
+    font-size: 36px;
+    color: #fff;
+    margin: 0px;
+    text-align: center;
+    /* display: table-cell; */
+    /* vertical-align: middle; */
+}
+
+.benefits {
+    text-align: center;
+    margin: 100px;
+}
+.benefits h1 {
+    font-family: 'Cedarville Cursive', cursive;
+}
+.benefits p {
+    font-family:'Recursive', sans-serif;
+}
+
+.companyCTA {
+    height: 40vh;
+    width:100%;
+    background-image: linear-gradient(#6867AC, #FFCC8F);
+    background-size: cover;
+    background-position: center;
+    display: table;
+    background-attachment: fixed;
+}
+
+.companyCTA h1 {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 48px;
+    color: #fff;
+    margin: 0px;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.CandiCTA {
+    height: 40vh;
+    width:100%;
+    background-image: linear-gradient(#EF9F9F, #371B58);
+    background-size: cover;
+    background-position: center;
+    display: table;
+    background-attachment: fixed;
+}
+
+.CandiCTA h1 {
+    font-family: 'Lato', sans-serif;
+    font-size: 48px;
+    color: #fff;
+    margin: 0px;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.pricing {
+    /* display: flex; */
+    /* flex-direction: row; */
+    padding: 20px;
+}
+.pricing .cards {
+    display: flex;
+    flex-direction: row;
+}
+
+.candi {
+    margin: auto;
+}
+
+.cohort {
+    text-align: center;
+    height: 20vh;
+    margin-bottom: 80px;
+    margin-top: 80px;
+}
+
+footer {
+    background: #FF008E;
+    text-align: center;
+    padding: 2rem;
+}
+
+footer img {
+    margin: 1rem;
+}
+
+footer .footer-text {
+    color: var(--pure);
+    margin: 1rem;
+}

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Intern Hiring</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Lato:ital,wght@1,900&family=Pacifico&family=Permanent+Marker&family=Poppins:wght@400;600&family=Recursive:wght@300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/1e645e677e.js" crossorigin="anonymous"></script>
+    {{>header}}
+</head>
+<body>
+    {{>navbar}}
+    <div class="hero" style="background-image: linear-gradient(to right, red , yellow); margin-top: 0px; height:400px;">
+        <h1 style="font-size: 100px; margin-top: 40px">We Deliver on TIME</h1>
+        <h4 style="font-size: 60px; text-align:center; margin-top: 40px">Or FREE</h4>
+    </div>
+
+    <div class="box1">
+        <h1>Our Vision</h1>
+        <p>It is a common process that a company announces vacancy of interns on some website and then candidates apply for them and this process takes a lot of time. But with us you can save a lot of time of yours, beacuse we bring to you the candidates which are already been filtered through a process of tests and interviews. So now companies can directly hire from our pool of talent.</p>
+    </div>
+
+    <div class="justify-content benefits">
+        <h1>Benefits</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. In harum quos incidunt saepe optio.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius consectetur cum minima veritatis.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius consectetur cum minima veritatis.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius consectetur cum minima veritatis.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius consectetur cum minima veritatis.</p>
+    </div>
+
+    <div class="companyCTA">
+        <h1>We have the best quality pool of Product Managers, filtered through a fine process of test and interviews.</h1>
+    </div>
+
+    <div class="CandiCTA">
+        <h1>We deliver a quality Product Management Experience.</h1>
+    </div>
+
+    <div class="pricing container">
+        <h1>Pricing</h1>
+        <div class="cards row">
+            <div class="card candi" style="width: 18rem;">
+                {{!-- <img src="..." class="card-img-top" alt="..."> --}}
+                <div class="card-body">
+                    <h5 class="card-title">Fresher Product Interns</h5>
+                    <p class="card-text">These interns are beginners, but with some really good projects.</p>
+                    <a href="#" class="btn btn-primary">Hire Interns</a>
+                </div>
+            </div>
+            <div class="card candi" style="width: 18rem;">
+                {{!-- <img src="..." class="card-img-top" alt="..."> --}}
+                <div class="card-body">
+                    <h5 class="card-title">Experienced Product Interns</h5>
+                    <p class="card-text">These interns are experienced interns as they have already done a few internships before as well.</p>
+                    <a href="#" class="btn btn-primary">Hire Interns</a>
+                </div>
+            </div>
+            <div class="card candi" style="width: 18rem;">
+                {{!-- <img src="..." class="card-img-top" alt="..."> --}}
+                <div class="card-body">
+                    <h5 class="card-title">Expert Product Interns</h5>
+                    <p class="card-text">These interns are expert in their field and have versatile knowledge.</p>
+                    <a href="#" class="btn btn-primary">Hire Interns</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="cohort container">
+        <h1>Register for next Cohort</h1>
+        <div class="mb-3">
+            {{!-- <label for="exampleFormControlInput1" class="form-label">Email address</label> --}}
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+        </div>
+        <button type="button" class="btn btn-danger">Submit</button>
+    </div>
+
+    <div>
+        <h1>Reach Out to us for hiring today.</h1>
+    </div>
+
+    <footer>
+        <div class="footer-text">
+            Copyright 2022 Org_Name. All Rights Reserved.
+        </div>
+        <div class="footer-text">
+            <h1>Our Team Members</h1>
+        </div>
+        <div class="cards row">
+            <div class="card candi" style="width: 18rem;">
+                <img src="https://media-exp1.licdn.com/dms/image/C4E03AQGFz5Fd_0twXA/profile-displayphoto-shrink_400_400/0/1636826593437?e=1660780800&v=beta&t=HBprebOioGKkOILDLF3ailVm5_8YsDqnjGUEf1g-r5c" class="card-img-top photo2" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Rajesh Kumar Singh</h5>
+                    <p class="card-text">Indian Institute of Technology<br>Kharagpur</p>
+                    {{!-- <i href="https://www.linkedin.com" class="fa-brands fa-linkedin"></i>
+                    <i class="fa-solid fa-envelope"></i> --}}
+                    <a href="https://www.linkedin.com" class="fa-brands fa-linkedin"></a>
+                    <a href="mailto:abc@xyz.com" class="fa-solid fa-envelope"></a>
+                    <a href="#" class="btn btn-primary">Check Profile</a>
+                </div>
+            </div>
+            <div class="card candi" style="width: 18rem;">
+                <img src="data:image/png;base64,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" class="card-img-top photo2" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Name 2</h5>
+                    <p class="card-text">College Name</p>
+                    {{!-- <i href="https://www.linkedin.com" class="fa-brands fa-linkedin"></i> --}}
+                    <a href="https://www.linkedin.com" class="fa-brands fa-linkedin"></a>
+                    <a href="mailto:abc@xyz.com" class="fa-solid fa-envelope"></a>
+                    {{!-- <i class="fa-solid fa-envelope"></i> --}}
+                    <a href="#" class="btn btn-primary">Check Profile</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

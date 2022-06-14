@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {{>header}}
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body style="background-image: linear-gradient(to right, red , yellow);">
+    {{>navbar}}
+
+    <h1>Login Form</h1>
+
+    <div class="RegisterForm">
+        <form action="/login" method="post">
+        <div class="mb-3">
+        {{!-- <label class="form-label">Email address</label> --}}
+        <input type="email" class="form-control" placeholder="Your Email *" name="email1">
+        </div>
+        <div class="mb-3">
+        {{!-- <label class="form-label">Email address</label> --}}
+        <input type="password" class="form-control" placeholder="Password *" value="" name="password1">
+        </div>
+        <button type="submit" class="btn btn-success">Login</button>
+        </form>
+    </div>
+
+</body>
+</html>
